@@ -17,3 +17,8 @@ function sorting (state = {} , action) {
             return state
     }
 }
+
+export default combineReducers({
+    receivePosts,
+    sorter
+})
